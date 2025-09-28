@@ -1,38 +1,81 @@
 .robot-container {
+	height: 800px;
+	width: 500px;
+	background-color: #4f4e4e;
+	border-radius: 46% 44% 0% 0% / 31% 29% 25% 25%;
+	margin: auto;
+	position: relative;
 }
 
-.robot-face-shape {
+.bender-eye-socket {
+	height: 134px;
+	width: 349px;
+	border-radius: 38% 32% 32% 37% / 29% 28% 25% 25%;
+	background: black;
+	border: 3px;
+	border-color: slategray;
+	position: absolute;
+	top: 250px;
+	left: 80px;
 }
 
 .robot-eye-left {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background-color: whitesmoke;
+	position: relative;
+	top: 20px;
+	left: 180px;
 }
 
-.robot-eye-right {
+.pupil-left {
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: black;
+	position: relative;
 }
 
-.robot-ear-left {
+.bender-eye-socket>.robot-eye-right {
+
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background-color: whitesmoke;
+	position: relative;
+	bottom: 80px;
+	left: 90px;
 }
 
-.robot-ear-right {
+.pupil-right {
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: black;
+	position: relative;
 }
 
-.robot-nose {
-}
+.pupil-left .pupil-right {
+	top: 20px;
+	bottom: 20px;
 
-.robot-teeth {
-}
 
-.robot-tooth {
-}
+	.robot-ear-left {}
 
-.robot-hair-style {
-}
 
-.robot-hair-one {
-}
+	.robot-ear-right {}
 
-.robot-hair-two {
-}
+	.robot-nose {}
 
-.robot-hair-three {
-}
+	.robot-teeth {}
+
+	.robot-tooth {}
+
+	.robot-hair-style {}
+
+	.robot-hair-one {}
+
+	.robot-hair-two {}
+
+	.robot-hair-three {}
