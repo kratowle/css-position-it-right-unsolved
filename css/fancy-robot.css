@@ -19,7 +19,8 @@
 	left: 80px;
 }
 
-.robot-eye {
+.left-robot-eye {
+
 	height: 100px;
 	width: 100px;
 	border-radius: 50%;
@@ -37,13 +38,13 @@
 	position: absolute;
 }
 
-.robot-eye {
+.right-robot-eye {
 	height: 100px;
 	width: 100px;
 	border-radius: 50%;
 	background-color: whitesmoke;
 	position: relative;
-	bottom: 20px;
+	top: 20px;
 	left: 90px;
 }
 
