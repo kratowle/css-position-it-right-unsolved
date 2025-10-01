@@ -25,9 +25,9 @@
 	width: 100px;
 	border-radius: 50%;
 	background-color: whitesmoke;
-	position: relative;
+	position: absolute;
 	top: 20px;
-	right: 90px;
+	right: 73px;
 }
 
 .pupil {
@@ -43,9 +43,9 @@
 	width: 100px;
 	border-radius: 50%;
 	background-color: whitesmoke;
-	position: relative;
+	position: absolute;
 	top: 20px;
-	left: 90px;
+	left: 73px;
 }
 
 .pupil {
@@ -58,7 +58,8 @@
 
 .pupil,
 .pupil {
-	top: 20px;
+	top: 40px;
+	left: 40px;
 }
 
 .robot-ear-left {}
