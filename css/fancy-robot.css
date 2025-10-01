@@ -19,63 +19,62 @@
 	left: 80px;
 }
 
-.robot-eye-left {
+.robot-eye {
 	height: 100px;
 	width: 100px;
 	border-radius: 50%;
 	background-color: whitesmoke;
 	position: relative;
 	top: 20px;
-	left: 180px;
+	right: 90px;
 }
 
-.pupil-left {
+.pupil {
 	height: 20px;
 	width: 20px;
 	border-radius: 50%;
 	background-color: black;
-	position: relative;
+	position: absolute;
 }
 
-.bender-eye-socket>.robot-eye-right {
-
+.robot-eye {
 	height: 100px;
 	width: 100px;
 	border-radius: 50%;
 	background-color: whitesmoke;
 	position: relative;
-	bottom: 80px;
+	bottom: 20px;
 	left: 90px;
 }
 
-.pupil-right {
+.pupil {
 	height: 20px;
 	width: 20px;
 	border-radius: 50%;
 	background-color: black;
-	position: relative;
+	position: absolute;
 }
 
-.pupil-left .pupil-right {
+.pupil,
+.pupil {
 	top: 20px;
-	bottom: 20px;
+}
+
+.robot-ear-left {}
 
 
-	.robot-ear-left {}
+.robot-ear-right {}
 
+.robot-nose {}
 
-	.robot-ear-right {}
+.robot-teeth {}
 
-	.robot-nose {}
+.robot-tooth {}
 
-	.robot-teeth {}
+.robot-hair-style {}
 
-	.robot-tooth {}
+.robot-hair-one {}
 
-	.robot-hair-style {}
+.robot-hair-two {}
 
-	.robot-hair-one {}
-
-	.robot-hair-two {}
-
-	.robot-hair-three {}
+.robot-hair-three {}
