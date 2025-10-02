@@ -91,18 +91,7 @@
 }
 
 
-.robot-blunt {
-	height: 50px;
-	width: 300px;
-	border-radius: 50% 50% 50% 50% / 38% 42% 58% 40%;
-	background-color: #392211;
-	top: 15px;
-	left: 140px;
-	position: relative;
-
-}
-
-.robot-teeth {
+.robot-mouth {
 	height: 75px;
 	width: 200px;
 	border-radius: 50% 50% 50% 50% / 27% 28% 31% 28%;
@@ -112,14 +101,20 @@
 	left: 50px;
 }
 
+.robot-teeth {
+	position: relative;
+	left: 10px;
+}
+
 .robot-tooth {
 	width: 3em;
 	height: 2em;
 	background: white;
 	border: 1px solid #ccc;
 	display: inline-block;
-	margin: 0 2px;
+	margin: 2px;
 	transform-origin: center;
+	position: relative;
 }
 
 .robot-hair-one {
@@ -129,6 +124,9 @@
 	border-radius: 100px / 50px;
 }
 
-.robot-hair-two {}
-
-.robot-hair-three {}
+.top-row {
+	position: absolute;
+	border-radius: 50% 50% 50% 50% / 27% 28% 31% 28%;
+	clip-path: shape(50% 50% 50% 50% / 27% 28% 31% 28%);
+	left: 15px;
+}
