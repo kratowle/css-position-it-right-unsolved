@@ -11,7 +11,7 @@
 	height: 124px;
 	width: 270px;
 	border-radius: 38% 32% 32% 37% / 29% 28% 25% 25%;
-	background: black;
+	background: linear-gradient(135deg, #02f286, #f26a02);
 	border: 3px;
 	position: absolute;
 	top: 150px;
@@ -101,6 +101,12 @@
 	left: 50px;
 }
 
+.top-row {
+	margin-top: 2px;
+	overflow: hidden;
+	height: 88%;
+}
+
 .robot-teeth {
 	position: relative;
 	left: 10px;
@@ -122,11 +128,4 @@
 	height: 30px;
 	background: red;
 	border-radius: 100px / 50px;
-}
-
-.top-row {
-	position: absolute;
-	border-radius: 50% 50% 50% 50% / 27% 28% 31% 28%;
-	clip-path: shape(50% 50% 50% 50% / 27% 28% 31% 28%);
-	left: 15px;
 }
