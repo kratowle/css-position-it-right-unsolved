@@ -1,7 +1,7 @@
 .robot-container {
 	height: 500px;
 	width: 300px;
-	background-color: #4f4e4e;
+	background-image: url(https://picsum.photos/seed/picsum/200/300);
 	border-radius: 46% 44% 0% 0% / 31% 29% 25% 25%;
 	margin: auto;
 	position: relative;
